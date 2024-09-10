@@ -1,0 +1,278 @@
+name: lulu
+description: Lulú Kennedy Events that matter
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  carousel_slider: ^4.2.1
+  vrouter: ^1.2.1
+  responsive_sizer: ^3.1.1
+  responsive_grid_list: ^1.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/3.jpg
+    - assets/images/acento_azul.png
+    - assets/images/azul.png
+    - assets/images/copas.png
+    - assets/images/dorado.png
+    - assets/images/elemento_azul.png
+    - assets/images/facebook_logo.png
+    - assets/images/flecha_azul.png
+    - assets/images/flecha.png
+    - assets/images/flowers.png
+    - assets/images/imagen_gift.gif
+    - assets/images/instagram_logo.png
+    - assets/images/logo_lulu.png
+    - assets/images/Lydia.jpg
+    - assets/images/mundo.png
+    - assets/images/order.png
+    - assets/images/T.jpg
+    - assets/images/whats.png
+    - assets/images/c1.jpg
+    - assets/images/c2.jpg
+    - assets/images/c3.jpg
+    - assets/images/c4.jpg
+    - assets/images/p2_1.jpg
+    - assets/images/p2_2.jpg
+    - assets/images/p2_3.jpg
+    - assets/images/p3_1.png
+    - assets/images/p3_2.png
+    - assets/images/p3_3.jpg
+    - assets/images/p4_1.png
+    - assets/images/1.png
+    - assets/images/galery/1/al1.jpg
+    - assets/images/galery/1/al2.jpg
+    - assets/images/galery/1/al3.jpg
+    - assets/images/galery/1/al4.jpg
+    - assets/images/galery/1/al5.jpg
+    - assets/images/galery/1/al6.jpg
+    - assets/images/galery/1/al7.jpg
+    - assets/images/galery/1/al8.jpg
+    - assets/images/galery/1/al9.jpg
+    - assets/images/galery/1/al10.jpg
+    - assets/images/galery/1/al11.jpg
+    - assets/images/galery/1/al12.jpg
+    - assets/images/galery/1/al13.jpg
+    - assets/images/galery/1/al14.jpg
+    - assets/images/galery/1/al15.jpg
+    - assets/images/galery/1/al16.jpg
+    - assets/images/galery/1/al17.jpg
+    - assets/images/galery/1/al18.jpg
+    - assets/images/galery/1/al19.jpg
+    - assets/images/galery/1/al20.jpg
+    - assets/images/galery/1/al21.jpg
+    - assets/images/galery/1/al22.jpg
+    - assets/images/galery/1/al23.jpg
+    - assets/images/galery/1/al24.jpg
+    - assets/images/galery/1/al25.jpg
+    - assets/images/galery/1/al26.jpg
+    - assets/images/galery/1/al27.jpg
+    - assets/images/galery/1/al28.jpg
+    - assets/images/galery/2/cs1.jpg
+    - assets/images/galery/2/cs2.jpg
+    - assets/images/galery/2/cs3.jpg
+    - assets/images/galery/2/cs4.jpg
+    - assets/images/galery/2/cs5.jpg
+    - assets/images/galery/2/cs6.jpg
+    - assets/images/galery/2/cs7.jpg
+    - assets/images/galery/2/cs8.jpg
+    - assets/images/galery/2/cs9.jpg
+    - assets/images/galery/2/cs10.jpg
+    - assets/images/galery/2/cs11.jpg
+    - assets/images/galery/2/cs12.jpg
+    - assets/images/galery/2/cs13.jpg
+    - assets/images/galery/2/cs14.jpg
+    - assets/images/galery/2/cs15.jpg
+    - assets/images/galery/2/cs16.jpg
+    - assets/images/galery/2/cs17.jpg
+    - assets/images/galery/2/cs18.jpg
+    - assets/images/galery/2/cs19.jpg
+    - assets/images/galery/2/cs20.jpg
+    - assets/images/galery/2/cs21.jpg
+    - assets/images/galery/2/cs22.jpg
+    - assets/images/galery/2/cs23.jpg
+    - assets/images/galery/2/cs24.jpg
+    - assets/images/galery/2/cs25.jpg
+    - assets/images/galery/2/cs26.jpg
+    - assets/images/galery/2/cs27.jpg
+    - assets/images/galery/2/cs28.jpg
+    - assets/images/galery/2/cs29.jpg
+    - assets/images/galery/3/gl1.png
+    - assets/images/galery/3/gl2.png
+    - assets/images/galery/3/gl3.png
+    - assets/images/galery/3/gl4.png
+    - assets/images/galery/3/gl5.png
+    - assets/images/galery/3/gl6.png
+    - assets/images/galery/3/gl7.png
+    - assets/images/galery/3/gl8.png
+    - assets/images/galery/3/gl9.png
+    - assets/images/galery/3/gl10.png
+    - assets/images/galery/3/gl11.png
+    - assets/images/galery/3/gl12.png
+    - assets/images/galery/3/gl13.png
+    - assets/images/galery/3/gl14.png
+    - assets/images/galery/3/gl15.png
+    - assets/images/galery/3/gl17.png
+    - assets/images/galery/3/gl18.png
+    - assets/images/galery/3/gl19.png
+    - assets/images/galery/3/gl20.png
+    - assets/images/galery/3/gl21.png
+    - assets/images/galery/3/gl22.png
+    - assets/images/galery/3/gl23.png
+    - assets/images/galery/3/gl24.png
+    - assets/images/galery/3/gl25.png
+    - assets/images/galery/3/gl26.png
+    - assets/images/galery/3/gl27.png
+    - assets/images/galery/3/gl28.png
+    - assets/images/galery/3/gl29.png
+    - assets/images/galery/3/gl30.png
+    - assets/images/galery/3/gl31.png
+    - assets/images/galery/3/gl32.png
+    - assets/images/galery/3/gl33.JPG
+    - assets/images/galery/4/g2_1.png
+    - assets/images/galery/4/g2_2.png
+    - assets/images/galery/4/g2_3.png
+    - assets/images/galery/4/g2_4.png
+    - assets/images/galery/5/vc1.jpg
+    - assets/images/galery/5/vc2.jpg
+    - assets/images/galery/5/vc3.jpg
+    - assets/images/galery/5/vc4.jpg
+    - assets/images/galery/5/vc5.jpg
+    - assets/images/galery/5/vc6.jpg
+    - assets/images/galery/5/vc7.jpg
+    - assets/images/galery/5/vc8.jpg
+    - assets/images/galery/5/vc9.jpg
+    - assets/images/galery/5/vc10.jpg
+    - assets/images/galery/5/vc11.jpg
+    - assets/images/galery/5/vc12.jpg
+    - assets/images/galery/6/md1.jpg
+    - assets/images/galery/6/md2.jpg
+    - assets/images/galery/6/md3.jpg
+    - assets/images/galery/6/md4.jpg
+    - assets/images/galery/6/md5.jpg
+    - assets/images/galery/6/md6.jpg
+    - assets/images/galery/6/md7.jpg
+    - assets/images/galery/6/md8.jpg
+    - assets/images/galery/6/md9.jpg
+    - assets/images/galery/6/md10.jpg
+    - assets/images/galery/6/md11.jpg
+    - assets/images/galery/6/md12.jpg
+    - assets/images/galery/6/md13.jpg
+    - assets/images/galery/6/md14.jpg
+    - assets/images/galery/6/md15.jpg
+    - assets/images/galery/6/md16.jpg
+    - assets/images/galery/6/md17.jpg
+    - assets/images/galery/6/md18.jpg
+    - assets/images/galery/6/md19.jpg
+    - assets/images/galery/6/md20.jpg
+    - assets/images/galery/6/md21.jpg
+    - assets/images/galery/6/md22.jpg
+    - assets/images/galery/6/md23.jpg
+    - assets/images/galery/6/md24.jpg
+    - assets/images/galery/6/md25.jpg
+    - assets/images/galery/6/md26.jpg
+    - assets/images/galery/6/md27.jpg
+    - assets/images/galery/6/md28.jpg
+    - assets/images/galery/6/md29.jpg
+    - assets/images/galery/6/md30.jpg
+    - assets/images/galery/6/md31.jpg
+    - assets/images/galery/7/gt1.jpg
+    - assets/images/galery/7/gt2.jpg
+    - assets/images/galery/7/gt3.jpg
+    - assets/images/galery/7/gt4.jpg
+    - assets/images/galery/7/gt5.jpg
+    - assets/images/galery/7/gt6.jpg
+    - assets/images/galery/7/gt7.jpg
+    - assets/images/galery/7/gt8.jpg
+    - assets/images/galery/7/gt9.jpg
+    - assets/images/galery/7/gt10.jpg
+    - assets/images/galery/7/gt11.jpg
+    - assets/images/galery/7/gt12.jpg
+    - assets/images/galery/7/gt13.jpg
+    - assets/images/galery/7/gt14.jpg
+    - assets/images/galery/7/gt15.jpg
+    - assets/images/galery/7/gt16.jpg
+    - assets/images/galery/7/gt17.jpg
+    - assets/images/galery/7/gt18.jpg
+    - assets/images/galery/7/gt19.jpg
+    - assets/images/galery/7/gt20.jpg
+    - assets/images/galery/7/gt21.jpg
+    - assets/images/galery/7/gt22.jpg
+    - assets/images/galery/7/gt23.jpg
+    - assets/images/galery/7/gt24.jpg
+    - assets/images/galery/7/gt25.jpg
+    - assets/images/galery/7/gt26.jpg
+    - assets/images/galery/7/gt27.jpg
+    - assets/images/galery/7/gt28.jpg
+
+  fonts:
+     - family: KanitBlack
+       fonts:
+         - asset: assets/fonts/kanit2/Kanit-Black.ttf
+     - family: KanitBlackItalic
+       fonts:
+         - asset: assets/fonts/kanit2/Kanit-BlackItalic.ttf
+     - family: KanitBold
+       fonts:
+         - asset: assets/fonts/kanit2/Kanit-Bold.ttf
+     - family: KanitBoldItalic
+       fonts:
+         - asset: assets/fonts/kanit2/Kanit-BoldItalic.ttf
+     - family: KanitExtraBold
+       fonts:
+         - asset: assets/fonts/kanit2/Kanit-ExtraBold.ttf
+     - family: KanitExtraBoldItalic
+       fonts:
+         - asset: assets/fonts/kanit2/Kanit-ExtraBoldItalic.ttf
+     - family: KanitExtraLight
+       fonts:
+         - asset: assets/fonts/kanit2/Kanit-ExtraLight.ttf
+     - family: KanitExtraLightItalic
+       fonts:
+         - asset: assets/fonts/kanit2/Kanit-ExtraLightItalic.ttf
+     - family: KanitItalic
+       fonts:
+         - asset: assets/fonts/kanit2/Kanit-Italic.ttf
+     - family: KanitLight
+       fonts:
+         - asset: assets/fonts/kanit2/Kanit-Light.ttf
+     - family: KanitLightItalic
+       fonts:
+         - asset: assets/fonts/kanit2/Kanit-LightItalic.ttf
+     - family: KanitMedium
+       fonts:
+         - asset: assets/fonts/kanit2/Kanit-Medium.ttf
+     - family: KanitMediumItalic
+       fonts:
+         - asset: assets/fonts/kanit2/Kanit-MediumItalic.ttf
+     - family: KanitRegular
+       fonts:
+         - asset: assets/fonts/kanit2/Kanit-Regular.ttf
+     - family: KanitSemiBold
+       fonts:
+         - asset: assets/fonts/kanit2/Kanit-SemiBold.ttf
+     - family: KanitSemiBoldItalic
+       fonts:
+         - asset: assets/fonts/kanit2/Kanit-SemiBoldItalic.ttf
+     - family: KanitThin
+       fonts:
+         - asset: assets/fonts/kanit2/Kanit-Thin.ttf
+     - family: KanitThinItalic
+       fonts:
+         - asset: assets/fonts/kanit2/Kanit-ThinItalic.ttf
